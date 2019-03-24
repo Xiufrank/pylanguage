@@ -5,6 +5,7 @@ from bottle import route, run
 def home():
     return "It isn't fancy, but it's my home page"
 
+
 @route('/he')
 def he():
     return '''My <b>new</b> and <i>improved</i> home page!!!'''
