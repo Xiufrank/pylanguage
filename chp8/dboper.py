@@ -19,8 +19,8 @@ def sqliteInsert():
     cur = conn.cursor()
 
     print('写入数据')
-    struid = str(uuid.uuid1())
-    sql = "insert into zoo values ('" + struid + "' , 3, 34.5)"
+    seteuid = str(uuid.uuid1())
+    sql = "insert into zoo values ('" + seteuid + "' , 3, 34.5)"
     print(sql)
     count = cur.execute(sql)
     print(count.rowcount)

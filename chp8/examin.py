@@ -1,7 +1,3 @@
-import os
-import csv
-
-
 def writeFile():
     str = 'This is a test of the emergency text system'
     fileName = '/Users/frank/Documents/Ex/test1'
@@ -27,5 +23,5 @@ def writeCsv():
 
 
 if __name__ == "__main__":
-    #writeFile()
+    # writeFile()
     writeCsv()
