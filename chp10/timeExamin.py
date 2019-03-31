@@ -3,7 +3,7 @@ import os
 
 
 def save2File():
-    now = time.localtime();
+    now = time.localtime()
     tamest = time.strftime("%Y-%m-%d %H:%M:%S", now)
 
     f = open("now", "wt")
